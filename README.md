@@ -4,5 +4,5 @@ Four in a Row is a desktop game developed using Visual Basic, housing various fe
 ![image](https://user-images.githubusercontent.com/93229991/219239023-ccf2e0e8-baba-40e8-8e93-d5e9ee618b69.png)
 
 How to run:
-  - Run the exe file in bin/Release
+  - Run the exe file in ```bin/Release```
   - Ensure a highscores.txt file exists in the same directory as the exe
