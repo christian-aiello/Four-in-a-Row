@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ICS3U1CPTConnectFour
+</name>
+</assembly>
+<members>
+<member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.BlackChip">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.BlackChipWin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.BlueChip">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.BlueChipWin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.EmptyChip">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.OrangeChip">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.OrangeChipWin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.PurpleChip">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.PurpleChipWin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.Puzzle_Dreams_3">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.RedChip">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.RedChipWin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.TealChip">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.TealChipWin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.WhiteChip">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.WhiteChipWin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.YellowChip">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ICS3U1_CPT_Connect_Four.My.Resources.Resources.YellowChipWin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:ICS3U1_CPT_Connect_Four.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

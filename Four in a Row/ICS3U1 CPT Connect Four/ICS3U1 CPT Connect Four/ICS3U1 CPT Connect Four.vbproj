@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{13B8DBAC-DE83-4696-9CE5-656A678945F2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ICS3U1_CPT_Connect_Four.My.MyApplication</StartupObject>
+    <RootNamespace>ICS3U1_CPT_Connect_Four</RootNamespace>
+    <AssemblyName>ICS3U1 CPT Connect Four</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ICS3U1 CPT Connect Four.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ICS3U1 CPT Connect Four.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChipColorDialogPlayerOneForm.Designer.vb">
+      <DependentUpon>ChipColorDialogPlayerOneForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChipColorDialogPlayerOneForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChipColorDialogPlayerTwoForm.Designer.vb">
+      <DependentUpon>ChipColorDialogPlayerTwoForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChipColorDialogPlayerTwoForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForm.Designer.Vb">
+      <DependentUpon>GameForm.Vb</DependentUpon>
+    </Compile>
+    <Compile Include="GameForm.Vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameOptionsDialogBoxForm.Designer.vb">
+      <DependentUpon>GameOptionsDialogBoxForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GameOptionsDialogBoxForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HighScores.Designer.vb">
+      <DependentUpon>HighScores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HighScores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstructionsForm.Designer.vb">
+      <DependentUpon>InstructionsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InstructionsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ChipColorDialogPlayerOneForm.resx">
+      <DependentUpon>ChipColorDialogPlayerOneForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChipColorDialogPlayerTwoForm.resx">
+      <DependentUpon>ChipColorDialogPlayerTwoForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameForm.resx">
+      <DependentUpon>GameForm.Vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameOptionsDialogBoxForm.resx">
+      <DependentUpon>GameOptionsDialogBoxForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HighScores.resx">
+      <DependentUpon>HighScores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstructionsForm.resx">
+      <DependentUpon>InstructionsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlueChipWin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OrangeChip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OrangeChipWin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PurpleChip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PurpleChipWin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedChip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedChipWin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TealChip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TealChipWin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YellowChip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YellowChipWin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlueChip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmptyChip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Puzzle-Dreams-3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlackChip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlackChipWin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteChip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteChipWin.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
